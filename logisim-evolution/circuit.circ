@@ -1024,59 +1024,45 @@
     <a name="circuit" val="one_bit_full_adder"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1100,590)" name="Pin">
+    <comp lib="0" loc="(1080,670)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="s"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(1130,700)" name="Pin">
+    <comp lib="0" loc="(1190,720)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="carry_out"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(830,550)" name="Pin">
+    <comp lib="0" loc="(810,550)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="a"/>
     </comp>
-    <comp lib="0" loc="(830,590)" name="Pin">
+    <comp lib="0" loc="(810,570)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="b"/>
     </comp>
-    <comp lib="0" loc="(830,630)" name="Pin">
+    <comp lib="0" loc="(860,690)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="carry_in"/>
     </comp>
-    <comp lib="1" loc="(1020,680)" name="AND Gate"/>
-    <comp lib="1" loc="(1070,590)" name="XOR Gate"/>
-    <comp lib="1" loc="(1110,700)" name="OR Gate"/>
-    <comp lib="1" loc="(930,570)" name="XOR Gate"/>
-    <comp lib="1" loc="(940,740)" name="AND Gate"/>
-    <wire from="(1000,610)" to="(1000,630)"/>
-    <wire from="(1000,610)" to="(1010,610)"/>
-    <wire from="(1020,680)" to="(1060,680)"/>
-    <wire from="(1020,720)" to="(1020,740)"/>
-    <wire from="(1020,720)" to="(1060,720)"/>
-    <wire from="(1070,590)" to="(1100,590)"/>
-    <wire from="(1110,700)" to="(1130,700)"/>
-    <wire from="(830,550)" to="(860,550)"/>
-    <wire from="(830,590)" to="(840,590)"/>
-    <wire from="(830,630)" to="(960,630)"/>
-    <wire from="(840,590)" to="(840,760)"/>
-    <wire from="(840,590)" to="(870,590)"/>
-    <wire from="(840,760)" to="(890,760)"/>
-    <wire from="(860,550)" to="(860,720)"/>
-    <wire from="(860,550)" to="(870,550)"/>
-    <wire from="(860,720)" to="(890,720)"/>
-    <wire from="(930,570)" to="(940,570)"/>
-    <wire from="(940,570)" to="(1010,570)"/>
-    <wire from="(940,570)" to="(940,660)"/>
-    <wire from="(940,660)" to="(970,660)"/>
-    <wire from="(940,740)" to="(1020,740)"/>
-    <wire from="(960,630)" to="(1000,630)"/>
-    <wire from="(960,630)" to="(960,700)"/>
-    <wire from="(960,700)" to="(970,700)"/>
+    <comp lib="1" loc="(1190,720)" name="OR Gate"/>
+    <comp loc="(1080,550)" name="one_bit_half_adder"/>
+    <comp loc="(1080,670)" name="one_bit_half_adder"/>
+    <wire from="(1080,550)" to="(1110,550)"/>
+    <wire from="(1080,570)" to="(1140,570)"/>
+    <wire from="(1080,690)" to="(1130,690)"/>
+    <wire from="(1110,550)" to="(1110,630)"/>
+    <wire from="(1130,690)" to="(1130,740)"/>
+    <wire from="(1130,740)" to="(1140,740)"/>
+    <wire from="(1140,570)" to="(1140,700)"/>
+    <wire from="(810,550)" to="(860,550)"/>
+    <wire from="(810,570)" to="(860,570)"/>
+    <wire from="(840,630)" to="(1110,630)"/>
+    <wire from="(840,630)" to="(840,670)"/>
+    <wire from="(840,670)" to="(860,670)"/>
   </circuit>
   <circuit name="one_bit_full_subtractor">
     <a name="appearance" val="logisim_evolution"/>

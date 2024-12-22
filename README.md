@@ -16,8 +16,6 @@ This project involves constructing a 4-bit Arithmetic Logic Unit (ALU) using log
 - **8-Bit Result:** The outcome of the selected operation.
 - **1-Bit Carry Out:** Output carry, indicating overflow or carry in arithmetic operations.
 
----
-
 ## Opcode Table
 
 The table below describes the operations performed by the ALU based on the 3-bit opcode:

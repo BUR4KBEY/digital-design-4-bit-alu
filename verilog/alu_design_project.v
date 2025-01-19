@@ -12,7 +12,8 @@ module alu_design_project(
         output overflow,
         output h3,h2,h1,h0,
         output o3,o2,o1,o0,
-        output t3,t2,t1,t0
+        output t3,t2,t1,t0,
+        output error
     );
     wire dec2_y0, dec2_y1, dec2_y2, dec2_y3;
     
@@ -276,7 +277,8 @@ module alu_design_project(
         .o0(o0)
     );
     
+    assign error = dec_3[6] | dec_3[7];
     assign carry_out_output =  (and_block[0] ? carry_out_wire : 1'b0) | (and_block[1] ? barrow_out : 1'b0);
-    assign overflow = and_block[0] & (carry_out_wire | barrow_out);
+    assign overflow = and_block[0] & (carry_out_wire);
     
 endmodule

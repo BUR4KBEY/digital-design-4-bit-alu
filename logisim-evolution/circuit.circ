@@ -2630,6 +2630,9 @@
     <comp lib="1" loc="(2010,390)" name="AND Gate">
       <a name="facing" val="north"/>
     </comp>
+    <comp lib="1" loc="(520,610)" name="OR Gate">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="1" loc="(560,720)" name="Controlled Buffer"/>
     <comp lib="1" loc="(560,790)" name="Controlled Buffer"/>
     <comp lib="1" loc="(560,860)" name="Controlled Buffer"/>
@@ -2692,6 +2695,11 @@
       <a name="label" val="opcode"/>
       <a name="labelloc" val="north"/>
       <a name="number" val="3"/>
+    </comp>
+    <comp lib="5" loc="(520,580)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="label" val="error"/>
+      <a name="labelloc" val="north"/>
     </comp>
     <comp lib="5" loc="(750,550)" name="DipSwitch">
       <a name="facing" val="south"/>
@@ -2975,12 +2983,19 @@
     <wire from="(340,690)" to="(340,1910)"/>
     <wire from="(350,2140)" to="(590,2140)"/>
     <wire from="(350,690)" to="(350,2140)"/>
+    <wire from="(360,690)" to="(360,710)"/>
+    <wire from="(360,710)" to="(540,710)"/>
+    <wire from="(370,690)" to="(370,700)"/>
+    <wire from="(370,700)" to="(500,700)"/>
     <wire from="(410,590)" to="(410,860)"/>
     <wire from="(410,860)" to="(540,860)"/>
     <wire from="(420,600)" to="(420,790)"/>
     <wire from="(420,790)" to="(540,790)"/>
     <wire from="(430,610)" to="(430,720)"/>
     <wire from="(430,720)" to="(540,720)"/>
+    <wire from="(500,660)" to="(500,700)"/>
+    <wire from="(520,580)" to="(520,610)"/>
+    <wire from="(540,660)" to="(540,710)"/>
     <wire from="(550,730)" to="(550,740)"/>
     <wire from="(550,800)" to="(550,810)"/>
     <wire from="(550,870)" to="(550,880)"/>

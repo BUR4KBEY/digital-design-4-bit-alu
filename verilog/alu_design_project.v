@@ -276,7 +276,7 @@ module alu_design_project(
         .o0(o0)
     );
     
-    assign carry_out_output = (and_block[0] | and_block[1]) ? carry_out_wire | barrow_out : 1'b0;
+    assign carry_out_output =  (and_block[0] ? carry_out_wire : 1'b0) | (and_block[1] ? barrow_out : 1'b0);
     assign overflow = and_block[0] & (carry_out_wire | barrow_out);
     
 endmodule

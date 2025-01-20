@@ -1,0 +1,7 @@
+{
+  "programMode": "ram",
+  "board": "tangnano9k",
+  "name": "verilog",
+  "constraintsFile": "tangnano9k.cst",
+  "top": "top"
+}

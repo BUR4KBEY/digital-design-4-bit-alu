@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
 
-
 module alu_design_project(
         input screen1,screen0,
         input opcode2, opcode1, opcode0,
@@ -110,11 +109,14 @@ module alu_design_project(
        .EN(dec2_y2),
        .Y(tri_inpB[2])
     );
-    tristate_buffer U12(
+    /*tristate_buffer U12(
        .A(B0),
        .EN(dec2_y2),
        .Y(tri_inpB[3])
-    );
+    );*/
+    
+    assign tri_inpB[3] = (dec2_y2) ? B0 : 1'b0;
+    
     wire sum[3:0];
     wire carry_out_wire;
     four_bit_adder U13(
@@ -278,7 +280,7 @@ module alu_design_project(
     );
     
     assign error = dec_3[6] | dec_3[7];
-    assign carry_out_output =  (and_block[0] ? carry_out_wire : 1'b0) | (and_block[1] ? barrow_out : 1'b0);
+    assign carry_out_output = (and_block[0] ? carry_out_wire : 1'b0) | (and_block[1] ? barrow_out : 1'b0);
     assign overflow = and_block[0] & (carry_out_wire);
     
 endmodule

@@ -26,6 +26,14 @@ Once the requirements are met, you can use the following `make` commands to buil
   make load
   ```
 
+  Alternatively, if you have [**nodemon**](https://github.com/remy/nodemon) installed, you can automatically build and load the project whenever you save a source file by running:
+
+  ```bash
+  nodemon
+  ```
+
+  This command will watch your `src` directory for file changes and trigger the build and load process accordingly.
+
 - **Flash into non-volatile FLASH**:  
   Use this command to load the build into the FPGA's non-volatile FLASH memory, which is ideal for production as it retains data even after a reboot:
 

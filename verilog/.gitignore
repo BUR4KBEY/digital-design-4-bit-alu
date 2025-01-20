@@ -2,3 +2,4 @@
 *.json
 !.lushay.json
 ___module_export.json
+!nodemon.json

@@ -38,5 +38,5 @@ flash: $(OUT_DIR)/verilog.fs
 clean:
 	rm -rf $(OUT_DIR)
 
-.PHONY: all load clean
+.PHONY: all load flash clean
 .INTERMEDIATE: $(OUT_DIR)/verilog_pnr.json $(OUT_DIR)/verilog.json

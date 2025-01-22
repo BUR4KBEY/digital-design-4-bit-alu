@@ -8,6 +8,6 @@ You need the application [**Logisim Evolution**](https://github.com/logisim-evol
 <summary>Click to expand and view the image of the circuit.</summary>
 <br>
 
-![Image](https://github.com/user-attachments/assets/fdcc7601-96df-4fbb-87c9-ab214075e503)
+![Image](https://github.com/user-attachments/assets/3e21bd1f-7466-46b1-8f51-83e07a70a400)
 
 </details>

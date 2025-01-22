@@ -6,7 +6,7 @@ This project includes Verilog files located in the `src` folder.
 
 For this project, we used **VSCode** along with the [**Lushay Code**](https://github.com/lushaylabs/lushay-code) extension to provide great support for the [**Tang Nano 9K FPGA**](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html), which is the hardware used in this project.
 
-Before starting, ensure that your system meets the [**requirements of Lushay Code**](https://github.com/lushaylabs/lushay-code?tab=readme-ov-file#requirements).
+Before starting, ensure that your system meets [**the requirements of Lushay Code**](https://github.com/lushaylabs/lushay-code?tab=readme-ov-file#requirements).
 
 ### Build and Flashing Instructions
 

@@ -19,6 +19,28 @@ All bits are **unsigned**.
 - **8-Bit Result:** The outcome of the selected operation.
 - **1-Bit Carry Out:** Output carry, indicating overflow or carry in arithmetic operations.
 
+### Preview
+
+<details>
+<summary>Click to expand and view images of the real-life circuit.</summary>
+<br>
+
+![Image](https://github.com/user-attachments/assets/fb795441-ea56-4582-bc8b-2ec2ffcd8e00)
+
+![Image](https://github.com/user-attachments/assets/9feb117e-b3ef-4213-85f7-06339f2816a4)
+
+</details>
+
+<details>
+<summary>Click to expand and view the circuit schematic.</summary>
+<br>
+
+![Image](https://github.com/user-attachments/assets/60cdd84c-c657-4d45-a461-6b66d7bfc560)
+
+You can also [**click here**](https://pro.easyeda.com/editor#id=4cae9a3f96a4493094537c6ea8ca6a45) to view the schematic in **EasyEDA**.
+
+</details>
+
 ## Screen Selector Table
 
 The 2-bit screen selector determines what is displayed on the screen:

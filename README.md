@@ -66,3 +66,9 @@ The table below describes the operations performed by the ALU based on the 3-bit
 | 101        | XOR            |        4        |           ❌           |
 | 110        | ❌             |       ❌        |           ❌           |
 | 111        | ❌             |       ❌        |           ❌           |
+
+## Credits
+
+- [**BUR4KBEY**](https://github.com/BUR4KBEY): Designed the circuit simulation using [**Logisim Evolution**](https://github.com/logisim-evolution/logisim-evolution), constructed the real-life circuit using the [**Tang Nano 9K FPGA**](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html), created the circuit schematic on **EasyEDA**, and authored this documentation.
+- [**kazimonses**](https://github.com/kazimonses): Developed the Verilog code for this project using the circuit simulation and prepared test benches for comprehensive testing to ensure stability.
+- [**k0rrluna**](https://github.com/k0rrluna): Provided guidance and support on FPGA development.
